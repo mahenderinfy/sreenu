@@ -1,0 +1,11 @@
+﻿<div [hidden]='!popupShow' [id]='tagId' class="autoCompleteDiv" (mouseover)='isFocusedOnItem=true'
+     (mouseleave)='isFocusedOnItem=false'>
+    <div (click)='selectedItem(item)'
+         *ngFor='let item of values;let i=index'
+         [class.autompleteItem]='i+1!=foucusedItem'
+         [class.autompleteItemFocused]='i+1==foucusedItem'>
+        {{item}}
+    </div>
+    
+</div>
+ 

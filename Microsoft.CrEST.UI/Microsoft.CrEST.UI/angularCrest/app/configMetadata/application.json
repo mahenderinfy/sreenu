@@ -1,0 +1,80 @@
+﻿[
+  {
+    "contactId": "1",
+    "serviceLine": "tb",
+    "application": "mahender",
+    "serviceClass": "basic",
+    "runVsGrow": "run",
+    "applicatioGroup": "staffing-run",
+    "startDate": "1/02/2017",
+    "endDate": "11/03/2018",
+    "serviceLineChk": "program",
+    "endToEnd": "n",
+    "epm": "y",
+    "tm": "50%",
+    "managedCapacity": "23%",
+    "managedServices": "0%",
+    "applicationChk": "DataOperationsManagementEngine",
+    "softwareAssetSearchableID": "Shadow application",
+    "remarks": "MyApps does not contain corresponding entry for this application"
+
+
+  },
+  {
+    "contactId": "2",
+    "serviceLine": "ta",
+    "application": "sai",
+    "runVsGrow": "run",
+    "applicatioGroup": "staffing-run",
+    "startDate": "1/02/2017",
+    "endDate": "11/03/2018",
+    "serviceLineChk": "program",
+    "endToEnd": "n",
+    "epm": "y",
+    "tm": "60%",
+    "managedCapacity": "22%",
+    "managedServices": "10%",
+    "applicationChk": "DataOperationsManagementEngine",
+    "softwareAssetSearchableID": "Shadow application",
+    "remarks": "MyApps does not contain corresponding entry for this application"
+  },
+  {
+    "contactId": "3",
+    "serviceLine": "ba",
+    "application": "krishna",
+    "runVsGrow": "run",
+    "applicatioGroup": "staffing-run",
+    "startDate": "1/02/2017",
+    "endDate": "11/03/2018",
+    "serviceLineChk": "program",
+    "endToEnd": "n",
+    "epm": "y",
+    "tm": "60%",
+    "managedCapacity": "2%",
+    "managedServices": "20%",
+    "applicationChk": "DataOperationsManagementEngine",
+    "softwareAssetSearchableID": "Shadow application",
+    "remarks": "MyApps does not contain corresponding entry for this application"
+
+  },
+  {
+    "contactId": "4",
+    "serviceLine": "bb",
+    "application": "seenu",
+    "runVsGrow": "run",
+    "applicatioGroup": "staffing-run",
+    "startDate": "1/02/2017",
+    "endDate": "11/03/2018",
+    "serviceLineChk": "program",
+    "endToEnd": "n",
+    "epm": "y",
+    "tm": "0%",
+    "managedCapacity": "26%",
+    "managedServices": "30%",
+    "applicationChk": "DataOperationsManagementEngine",
+    "softwareAssetSearchableID": "Shadow application",
+
+    "remarks": "MyApps does not contain corresponding entry for this application"
+
+  }
+]

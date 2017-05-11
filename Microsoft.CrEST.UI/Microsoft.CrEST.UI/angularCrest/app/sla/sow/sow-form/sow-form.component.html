@@ -1,0 +1,59 @@
+﻿<div class="row">
+    <form class="col s12" [formGroup]="form" (ngSubmit)="save()">
+        <div class="row">
+            <div class="input-field col s12">
+                Supplier
+                <input id="supplier" type="text" 
+                       class="validate"
+                       [(ngModel)]="sow.supplier" 
+                       formControlName="supplier"
+                       [class.invalid]="form.controls['supplier'].touched && !form.controls['supplier'].valid">
+                <label for="supplier"
+                       [class.active]="sow.supplier"
+                       data-error="Supplier is required">
+                    Supplier
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                Service Line
+                <input id="serviceLine" 
+                       type="text" 
+                       class="validate"
+                       [(ngModel)]="sow.serviceLine" 
+                       formControlName="serviceLine"
+                       [class.invalid]="form.controls['serviceLine'].touched && !form.controls['serviceLine'].valid">
+                <label for="serviceLine"
+                       [class.active]="sow.serviceLine"
+                       data-error="Service Line is required">
+                    Service Line
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                Contract ID
+                <input id="contractID" 
+                       type="text" 
+                       class="validate"
+                       [(ngModel)]="sow.contractID" formControlName="contractID">
+                <label for="contractID" [class.active]="sow.contractID">Contract ID</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                SOW Effective Date
+                <input id="sowEffectiveDate" 
+                       type="text" 
+                       class="validate"
+                       [(ngModel)]="sow.sowEffectiveDate" formControlName="sowEffectiveDate">
+                <label for="sowEffectiveDate" [class.active]="sow.sowEffectiveDate">SOW Effective Date</label>
+            </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit"
+                [disabled]="!form.valid">
+            Submit
+        </button>
+    </form>
+</div>

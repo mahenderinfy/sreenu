@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\js\**" />
+    <Compile Remove="wwwroot\vendor\**" />
+    <Content Remove="wwwroot\js\**" />
+    <Content Remove="wwwroot\vendor\**" />
+    <EmbeddedResource Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="wwwroot\vendor\**" />
+    <None Remove="wwwroot\js\**" />
+    <None Remove="wwwroot\vendor\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot/index.html" />
+    <Content Remove="wwwroot/polyfills.js" />
+    <Content Remove="wwwroot/polyfills.js.map" />
+    <Content Remove="wwwroot/polyfills.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\configMetadata\application.json" />
+    <Content Include="wwwroot\configMetadata\dev.json" />
+    <Content Include="wwwroot\configMetadata\env.json" />
+    <Content Include="wwwroot\configMetadata\local.json" />
+    <Content Include="wwwroot\configMetadata\sample.json" />
+    <Content Include="wwwroot\css\app.bundle.css" />
+    <Content Include="wwwroot\css\site.css" />
+    <Content Include="wwwroot\css\site.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

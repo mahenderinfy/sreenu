@@ -1,0 +1,29 @@
+﻿.autoCompleteDiv {
+        position: absolute;
+        Width: 171px;
+        height: 100px;
+        overflow-y: scroll;
+        background-color: white;
+        overflow-x: hidden;
+        border: 1px solid #BDBDBD
+    }
+
+.autompleteItem {
+        width: 120%;
+        height: 25px;
+        background-color: white;
+        line-height: 25px;
+        cursor: pointer;
+        cursor: hand;
+        border-bottom: 1px solid #BDBDBD
+    }
+
+.autompleteItemFocused {
+        width: 120%;
+        height: 25px;
+        background-color:  #BDBDBD;
+        line-height: 25px;
+        cursor: pointer;
+        cursor: hand;
+        background-color:brown;
+    }
